@@ -3,13 +3,13 @@
 	"id": "remaximized",
 	"version": "${version}",
 	"name": "Remaximized",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A minecraft mod that introduces machines that gather resources for you.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Yechse/Remaximized"
 	},
 	"license": "MIT",
 	"icon": "assets/remaximized/icon.png",
