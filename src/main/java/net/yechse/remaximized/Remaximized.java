@@ -1,6 +1,7 @@
 package net.yechse.remaximized;
 
 import net.fabricmc.api.ModInitializer;
+import net.yechse.remaximized.item.ModGroup;
 import net.yechse.remaximized.item.ModItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,7 @@ public class Remaximized implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing Remaximized");
-		ModItem.initialize();
+		ModItem.onInitializeModItem();
+		ModGroup.onInitializeModGroup();
 	}
 }
