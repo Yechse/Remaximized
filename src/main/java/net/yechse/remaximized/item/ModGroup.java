@@ -17,7 +17,7 @@ public class ModGroup {
             .entries((displayContext, entries) -> {
                 entries.add(ModItem.TRASSIUM_DUST);
                 entries.add(ModItem.TRASSIUM_SHARD);
-                entries.add(ModItem.TRASSIUM_GEM);
+                entries.add(ModItem.TRASSIUM_INGOT);
             })
         .build());
     
