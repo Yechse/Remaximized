@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.yechse.remaximized.Remaximized;
+import net.yechse.remaximized.block.ModBlock;
 
 public class ModGroup {
     public static final ItemGroup REMAXIMIZED_GROUP = Registry.register(Registries.ITEM_GROUP, 
@@ -15,9 +16,10 @@ public class ModGroup {
         FabricItemGroup.builder().icon(() -> new ItemStack(ModItem.TRASSIUM_DUST))
             .displayName(Text.translatable("itemGroup.remaximized"))
             .entries((displayContext, entries) -> {
-                entries.add(ModItem.TRASSIUM_DUST);
-                entries.add(ModItem.TRASSIUM_SHARD);
+                entries.add(ModBlock.TRASSIUM_BLOCK);
                 entries.add(ModItem.TRASSIUM_INGOT);
+                entries.add(ModItem.TRASSIUM_SHARD);
+                entries.add(ModItem.TRASSIUM_DUST);
             })
         .build());
     

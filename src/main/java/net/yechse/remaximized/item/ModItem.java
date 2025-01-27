@@ -1,9 +1,7 @@
 package net.yechse.remaximized.item;
 
 import net.minecraft.registry.*;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.util.Identifier;
 import net.yechse.remaximized.Remaximized;
 
